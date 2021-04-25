@@ -1,4 +1,4 @@
-obj-m := input-button.o input-polled-button.o polled-ins.o
+obj-m := input-button.o input-polled-button.o input-polled-button-pc.o polled-ins.o
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 
